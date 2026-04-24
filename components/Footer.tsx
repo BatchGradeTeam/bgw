@@ -19,7 +19,7 @@ export default function Footer() {
     <footer className="bg-zinc-950 text-zinc-400">
       <div className="max-w-6xl mx-auto px-6 pt-14 pb-8">
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 mb-12">
-          {/* Brand */}
+          {/* Product summary. */}
           <div>
             <div className="flex items-center gap-0.5 mb-3">
               <span className="text-white font-extrabold text-lg">Batch</span>
@@ -31,7 +31,7 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Product */}
+          {/* Product links. */}
           <div>
             <h4 className="text-white font-semibold text-xs mb-4 uppercase tracking-widest">
               Product
@@ -47,7 +47,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Project */}
+          {/* Project links. */}
           <div>
             <h4 className="text-white font-semibold text-xs mb-4 uppercase tracking-widest">
               Project

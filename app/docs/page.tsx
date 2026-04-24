@@ -102,7 +102,7 @@ const faqItems = [
 export default function DocsPage() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Page header */}
+      {/* Introduces the documentation page. */}
       <div
         style={{
           background: "linear-gradient(135deg, #1e3a8a 0%, #1d4ed8 60%, #3730a3 100%)",
@@ -121,10 +121,10 @@ export default function DocsPage() {
         </div>
       </div>
 
-      {/* Body */}
+      {/* Holds the documentation navigation and content. */}
       <div className="max-w-6xl mx-auto px-6 py-16">
         <div className="flex gap-14">
-          {/* Sidebar */}
+          {/* Keeps section links visible on large screens. */}
           <aside className="hidden lg:block w-52 shrink-0">
             <div className="sticky top-24">
               <p className="text-xs font-semibold uppercase tracking-widest text-zinc-400 mb-4">
@@ -155,9 +155,9 @@ export default function DocsPage() {
             </div>
           </aside>
 
-          {/* Content */}
+          {/* Contains the documentation sections. */}
           <main className="flex-1 min-w-0">
-            {/* ── Quick Start ── */}
+            {/* Helps new users run BatchGrade quickly. */}
             <section id="quick-start" className="mb-16 scroll-mt-24">
               <SectionDivider id="quick-start" title="Quick Start" />
               <p className="text-zinc-600 leading-relaxed mb-8">
@@ -198,7 +198,7 @@ export default function DocsPage() {
               </div>
             </section>
 
-            {/* ── Installation ── */}
+            {/* Covers platform-specific installation. */}
             <section id="installation" className="mb-16 scroll-mt-24">
               <SectionDivider id="installation" title="Installation" />
               <p className="text-zinc-600 leading-relaxed mb-6">
@@ -213,7 +213,7 @@ export default function DocsPage() {
               </Callout>
             </section>
 
-            {/* ── Test Cases ── */}
+            {/* Documents the test configuration format. */}
             <section id="test-cases" className="mb-16 scroll-mt-24">
               <SectionDivider id="test-cases" title="Defining Test Cases" />
               <p className="text-zinc-600 leading-relaxed mb-4">
@@ -278,7 +278,7 @@ export default function DocsPage() {
               </Callout>
             </section>
 
-            {/* ── Running ── */}
+            {/* Explains how to start a grading session. */}
             <section id="running" className="mb-16 scroll-mt-24">
               <SectionDivider id="running" title="Running the Grader" />
               <p className="text-zinc-600 leading-relaxed mb-6">
@@ -315,7 +315,7 @@ export default function DocsPage() {
               </Callout>
             </section>
 
-            {/* ── Exporting ── */}
+            {/* Describes available export formats. */}
             <section id="exporting" className="mb-16 scroll-mt-24">
               <SectionDivider id="exporting" title="Exporting Results" />
               <p className="text-zinc-600 leading-relaxed mb-6">
@@ -362,7 +362,7 @@ export default function DocsPage() {
               </div>
             </section>
 
-            {/* ── FAQ ── */}
+            {/* Answers common setup questions. */}
             <section id="faq" className="mb-8 scroll-mt-24">
               <SectionDivider id="faq" title="FAQ" />
               <div className="space-y-0 divide-y divide-zinc-100">
@@ -393,7 +393,7 @@ export default function DocsPage() {
               </div>
             </section>
 
-            {/* Prev/Next nav */}
+            {/* Links to nearby pages. */}
             <div className="border-t border-zinc-100 pt-8 flex justify-between items-center text-sm">
               <Link href="/" className="text-zinc-500 hover:text-zinc-900 transition-colors">
                 &larr; Home

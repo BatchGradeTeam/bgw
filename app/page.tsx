@@ -106,7 +106,7 @@ const steps = [
 export default function Home() {
   return (
     <div className="bg-white text-zinc-900">
-      {/* ── Hero ── */}
+      {/* Introduces the product and primary actions. */}
       <section
         style={{
           background:
@@ -152,7 +152,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── Stats Bar ── */}
+      {/* Highlights the product scope at a glance. */}
       <section className="bg-zinc-900 text-white">
         <div className="max-w-6xl mx-auto px-6 py-10 grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
           {[
@@ -169,7 +169,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── Features ── */}
+      {/* Lists the core grading features. */}
       <section id="features" className="py-24 px-6 bg-white">
         <div className="max-w-6xl mx-auto">
           <SectionHeader
@@ -185,7 +185,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── Who It's For ── */}
+      {/* Shows the main user groups. */}
       <section id="who" className="py-24 px-6 bg-zinc-50">
         <div className="max-w-6xl mx-auto">
           <SectionHeader
@@ -201,7 +201,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── How It Works ── */}
+      {/* Explains the basic grading workflow. */}
       <section id="how" className="py-24 px-6 bg-white">
         <div className="max-w-4xl mx-auto">
           <SectionHeader
@@ -235,7 +235,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── CTA ── */}
+      {/* Ends with the next actions for visitors. */}
       <section
         style={{
           background: "linear-gradient(135deg, #1e3a8a 0%, #3730a3 100%)",

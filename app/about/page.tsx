@@ -112,7 +112,7 @@ const stats = [
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Page header */}
+      {/* Introduces the project and its purpose. */}
       <div
         style={{
           background:
@@ -137,7 +137,7 @@ export default function AboutPage() {
         </div>
       </div>
 
-      {/* Stats bar */}
+      {/* Summarizes project status. */}
       <div className="bg-zinc-900 text-white">
         <div className="max-w-6xl mx-auto px-6 py-10 grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
           {stats.map(({ value, label }) => (
@@ -149,7 +149,7 @@ export default function AboutPage() {
         </div>
       </div>
 
-      {/* ── Mission ── */}
+      {/* Explains the problem BatchGrade solves. */}
       <section className="py-24 px-6 bg-white">
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -183,7 +183,7 @@ export default function AboutPage() {
               </div>
             </div>
 
-            {/* Value props */}
+            {/* Shows the main product values. */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {[
                 {
@@ -221,7 +221,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ── Tech Stack ── */}
+      {/* Lists the tools used to build BatchGrade. */}
       <section className="py-24 px-6 bg-zinc-50">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
@@ -251,7 +251,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ── Team ── */}
+      {/* Shows the project contributors. */}
       <section className="py-24 px-6 bg-white">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
@@ -307,7 +307,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ── Project CTA ── */}
+      {/* Links to the project source and issue tracker. */}
       <section className="py-24 px-6 bg-zinc-50">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-blue-600 font-semibold text-sm uppercase tracking-widest mb-3">
@@ -342,7 +342,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Bottom nav */}
+      {/* Provides simple page navigation. */}
       <div className="border-t border-zinc-100 py-8 px-6">
         <div className="max-w-6xl mx-auto flex justify-between items-center text-sm">
           <Link href="/docs" className="text-zinc-500 hover:text-zinc-900 transition-colors">

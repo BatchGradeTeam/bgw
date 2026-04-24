@@ -29,7 +29,7 @@ export default function Nav() {
           <span className="font-extrabold text-xl text-zinc-900">Grade</span>
         </Link>
 
-        {/* Desktop links */}
+        {/* Primary navigation for wider screens. */}
         <div className="hidden md:flex items-center gap-6 text-sm font-medium">
           {navLinks.map(({ href, label }) => {
             const isActive = !href.includes("#") && pathname === href;
@@ -57,7 +57,7 @@ export default function Nav() {
           </a>
         </div>
 
-        {/* Mobile hamburger */}
+        {/* Toggles navigation on small screens. */}
         <button
           className="md:hidden p-2 text-zinc-600 hover:text-zinc-900 transition-colors"
           onClick={() => setOpen(!open)}
@@ -83,7 +83,7 @@ export default function Nav() {
         </button>
       </div>
 
-      {/* Mobile dropdown */}
+      {/* Navigation menu for small screens. */}
       {open && (
         <div className="md:hidden border-t border-zinc-100 bg-white px-6 pb-4">
           <div className="flex flex-col gap-1 pt-3">

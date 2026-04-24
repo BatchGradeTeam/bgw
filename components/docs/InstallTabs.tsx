@@ -31,7 +31,7 @@ export default function InstallTabs() {
 
   return (
     <div>
-      {/* Tab strip */}
+      {/* Platform selector. */}
       <div className="flex gap-1 p-1 bg-zinc-100 rounded-xl w-fit mb-6">
         {platforms.map(({ id, label, icon }) => (
           <button
